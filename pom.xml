@@ -442,15 +442,13 @@
             </revapi.semver.ignore>
             <revapi.ignore>
               <item>
-                <regex>true</regex>
                 <code>java.field.enumConstantOrderChanged</code>
-                <new>field se.bjurr.violations.lib.reports.Parser.*</new>
+                <classQualifiedName>se.bjurr.violations.lib.reports.Parser</classQualifiedName>
                 <justification>Nobody should rely on these constants.</justification>
               </item>
               <item>
-                <regex>true</regex>
                 <code>java.field.addedStaticField</code>
-                <new>field se.bjurr.violations.lib.reports.Parser.*</new>
+                <classQualifiedName>se.bjurr.violations.lib.reports.Parser</classQualifiedName>
                 <justification>Nobody should rely on these constants.</justification>
               </item>
             </revapi.ignore>
